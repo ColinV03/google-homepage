@@ -1,9 +1,19 @@
 body {
     background-color: rgb(176, 159, 159, 0.1);
     padding: 10px;
-    margin: 20px; 
+    margin: 0px; 
+    flex-direction: column; 
+    height: 100%;
 
 }
+.wrapper {
+  min-height: 100%; 
+  margin-bottom: -50px; 
+}
+.footer, .push { 
+  height: 50px; 
+}
+
 ul  {
     list-style-type: none;
     margin: 0;
@@ -29,6 +39,7 @@ li a:hover {
 
 img{
     border-radius: 8px; 
+    max-height: 100%;
     max-width: 50%;
     height:auto;
     display: block;
@@ -36,6 +47,8 @@ img{
     margin-right: auto;
     width: 25%;
     
+}
+footer {
+  margin: auto auto 0 auto; 
 
 }
-
